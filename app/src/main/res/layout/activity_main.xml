@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/logo" />
 
     <Button
-        android:id="@+id/botaoCadastrar"
+        android:id="@+id/botaoCriarContar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="136dp"
@@ -35,5 +35,5 @@
         android:text="Já tem conta? Clique aqui para entrar!"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/botaoCadastrar" />
+        app:layout_constraintTop_toBottomOf="@+id/botaoCriarContar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
