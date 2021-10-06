@@ -1,8 +1,10 @@
-package com.example.appcadastro;
+package com.example.appcadastro.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.appcadastro.R;
 
 public class TelaLogin extends AppCompatActivity {
 

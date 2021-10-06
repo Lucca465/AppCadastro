@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCadastro">
         <activity
-            android:name=".TelaLogin"
+            android:name=".activities.TelaLogin"
             android:exported="true" />
         <activity
-            android:name=".TelaCadastro"
+            android:name=".activities.TelaCadastro"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

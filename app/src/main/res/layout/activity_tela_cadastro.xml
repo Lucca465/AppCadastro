@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TelaCadastro">
+    tools:context=".activities.TelaCadastro">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -130,6 +130,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:backgroundTint="@color/AzulRick"
+        android:onClick="botaoCadastrarClick"
         android:text="Cadastrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtSenhaCadastro" />
